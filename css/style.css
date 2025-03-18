@@ -1,0 +1,114 @@
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#898989;
+	--color-titulos:#282d33;
+	--color-iconos:#e0e0e0;
+	--color-checks:#53c3c9;
+	--color-fondo:#f9f9f9;
+	--color-titulos2:#fff;
+	--color-general2:#fff;
+}
+
+
+
+body{
+	font-size: 14px;
+  	font-family: "Catamaran", sans-serif;
+}
+
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+}
+
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
+#hero{
+	text-align: center;
+	background-color: #fff;
+}
+
+#hero h1{
+	font-weight: 700;
+	color: var(--color-titulos);
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+#hero h5{
+	color: var(--color-general);
+	font-weight: 200;
+	padding-bottom: 90px;
+}
+
+#services{
+	text-align: center;
+	background-color: var(--color-fondo);
+	padding: 160px 0px;
+}
+
+.iconoprincipal{
+	color: var(--color-iconos);
+	font-size: 120px;
+}
+
+.iconosecundario{
+	color: var(--color-checks);
+	font-size: 60px;
+}
+
+#services h5{
+	color: var(--color-titulos);
+	font-weight: 700;
+}
+
+#services p{
+	color: var(--color-general);
+	font-weight: 200;
+}
+
+#cta{
+	background-image: url("../img/using-touchscreen.jpg");
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.30);
+	padding: 10% 0;
+	text-align: left;
+}
+
+#cta h1{
+	color: var(--color-titulos2);
+	font-weight: 700;
+	font-size: 120px;
+}
+
+#cta h5{
+	color: var(--color-general2);
+	font-weight: 200;
+	padding-bottom: 30px;
+	line-height: 1.5;
+	padding-top: 70px;
+}
+
+#customers img{
+	width: 250px;
+}
+
+#customers{
+	background-color: var(--color-fondo);
+	padding: 80px 0px;
+}
+
+.btn-light{
+	font-weight: 600;
+	border-radius: 30px;
+	padding: 15px 40px;
+}
